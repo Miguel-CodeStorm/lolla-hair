@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lolla Hair</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #ff4e8d, #ffa751);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    .card {
+      max-width: 400px;
+      background: #1e1e1e;
+      border-radius: 20px;
+      padding: 25px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      text-align: center;
+      border: 2px solid silver;
+      animation: fadeIn 1.2s ease-in-out;
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 15px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px silver;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2em;
+      color: #fff;
+      margin: 0;
+    }
+
+    p {
+      font-size: 1em;
+      margin: 10px 0 20px;
+      color: #ddd;
+    }
+
+    .services {
+      text-align: left;
+      margin-bottom: 25px;
+    }
+
+    .services div {
+      margin: 10px 0;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #ccc;
+      transition: transform 0.3s;
+    }
+
+    .services div:hover {
+      transform: translateX(8px);
+      color: #fff;
+    }
+
+    .services i {
+      font-size: 1.2em;
+      color: silver;
+      transition: color 0.3s;
+    }
+
+    .services div:hover i {
+      color: #ffffff;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 25px;
+    }
+
+    .icons a {
+      color: silver;
+      font-size: 1.6em;
+      transition: transform 0.4s, color 0.3s;
+    }
+
+    .icons a:hover {
+      transform: scale(1.3);
+      color: #ffffff;
+    }
+
+    .soon {
+      font-style: italic;
+      font-size: 0.9em;
+      opacity: 0.6;
+      margin-top: 25px;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="https://cdn.discordapp.com/attachments/1369338392663425205/1369338490533445632/lolla.png?ex=681b7f59&is=681a2dd9&hm=475948fe8f3f2f3949baf4b22aa8f71113ae55704be785cb9f7f7619a38d657d" alt="Lolla Hair">
+    <h1>Lolla HAIR</h1>
+    <p>Cabeleireira especialista em cabelos com curvaturas, cacheados e crespos.</p>
+
+    <div class="services">
+      <div><i class="bi bi-scissors"></i> Corte a seco ou molhado</div>
+      <div><i class="bi bi-droplet-half"></i> Hidratação, nutrição e reconstrução</div>
+      <div><i class="bi bi-chat-left-text"></i> Consultoria pré e pós corte</div>
+      <div><i class="bi bi-calendar-heart"></i> Cronograma capilar personalizado</div>
+    </div>
+
+    <div class="icons">
+      <a href="https://wa.me/message/37Z7J5A7G5LZK1" target="_blank" title="WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+      </a>
+      <a href="https://www.instagram.com/lollaahair?igsh=MXNyaHdjcWh3cXBvdQ%3D%3D&utm_source=qr" target="_blank" title="Instagram">
+        <i class="bi bi-instagram"></i>
+      </a>
+    </div>
+
+    <div class="soon">Depoimentos de clientes – em breve!</div>
+  </div>
+</body>
+</html>
